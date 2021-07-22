@@ -84,11 +84,23 @@ export default class EditDeveloper extends Component {
         console.log(res.data);
         // Redirect to Developer List
         this.props.history.push("/");
-        Swal.fire("Desenvolvedor Atualizado!", "", "success");
+        Swal.fire({
+          title: "Desenvolvedor Atualizado",
+          text: "",
+          icon: "success",
+        }).then(function () {
+          window.location.reload();
+        });
       })
       .catch((error) => {
         console.log(error);
-        Swal.fire("Erro ao atualizar Desenvolvedor!", "", "warning");
+        Swal.fire({
+          title: "Erro ao atualizar Desenvolvedor!",
+          text: "",
+          icon: "warning",
+        }).then(function () {
+          window.location.reload();
+        });
       });
   }
 

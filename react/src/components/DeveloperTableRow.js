@@ -16,11 +16,23 @@ export default class DeveloperTableRow extends Component {
       .delete("http://localhost:4000/developers/" + this.props.obj.id)
       .then((res) => {
         console.log(res.data);
-        Swal.fire("Desenvolvedor Deletado!", "", "success");
+        Swal.fire({
+          title: "Desenvolvedor Deletado",
+          text: "",
+          icon: "success",
+        }).then(function () {
+          window.location.reload();
+        });
       })
       .catch((error) => {
         console.log(error);
-        Swal.fire("Erro ao Deletar Desenvolvedor!", "", "warning");
+        Swal.fire({
+          title: "Erro ao Deletar Desenvolvedor!",
+          text: "",
+          icon: "warning",
+        }).then(function () {
+          window.location.reload();
+        });
       });
   }
   render() {

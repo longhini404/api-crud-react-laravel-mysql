@@ -62,11 +62,24 @@ export default class CreateDeveloper extends Component {
         console.log(res.data);
         // Redirect to Developer List
         this.props.history.push("/");
-        Swal.fire("Desenvolvedor Cadastrado!", "", "success");
+        Swal.fire({
+          title: "Desenvolvedor Cadastrado!",
+          text: "",
+          icon: "success",
+        }).then(function () {
+          window.location.reload();
+        });
       })
       .catch((error) => {
         console.log(error);
-        Swal.fire("Erro ao cadastrar Desenvolvedor!", "", "warning");
+        Swal.fire("", "", "warning");
+        Swal.fire({
+          title: "Erro ao cadastrar Desenvolvedor!",
+          text: "",
+          icon: "warning",
+        }).then(function () {
+          window.location.reload();
+        });
       });
 
     this.setState({ nome: "" });
