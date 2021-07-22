@@ -10,6 +10,7 @@
 ```
 cd laravel
 npm install
+composer install
 php artisan migrate
 ```
 
