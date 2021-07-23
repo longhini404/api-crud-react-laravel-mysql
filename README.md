@@ -13,6 +13,11 @@
 cd laravel
 npm install
 composer install --ignore-platform-reqs
+```
+
+## Migrations
+
+```
 php artisan migrate
 ```
 
