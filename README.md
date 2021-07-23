@@ -5,9 +5,9 @@
 
 [![](https://github.com/LonghiniDev/api-crud-devs-react-laravel/blob/master/DEVCRUD.png)](#)
 
-# Figma
-
-[a Figma](https://www.figma.com/file/99nKoTc5I1e0S69Qf0t0PB/DevCRUD?node-id=0%3A1)
+<h1 align="center">
+    <a href="https://www.figma.com/file/99nKoTc5I1e0S69Qf0t0PB/DevCRUD?node-id=0%3A1">🔗 Figma</a>
+</h1>
 
 # Laravel
 
