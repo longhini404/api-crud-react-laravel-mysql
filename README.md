@@ -18,12 +18,14 @@ composer install --ignore-platform-reqs
 ## Migrations
 
 ```
+mv .env.example .env
 php artisan migrate
 ```
 
 ## Localhost
 
 ```
+php artisan key:generate
 php artisan serve --host=localhost --port=4000
 ```
 
