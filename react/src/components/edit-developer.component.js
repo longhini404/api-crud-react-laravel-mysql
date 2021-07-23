@@ -109,7 +109,7 @@ export default class EditDeveloper extends Component {
       <div className="form-wrapper">
         <Form onSubmit={this.onSubmit}>
           <Form.Group controlId="Nome">
-            <Form.Label>Nome</Form.Label>
+            <Form.Label>Nome:</Form.Label>
             <Form.Control
               required
               type="text"
@@ -119,7 +119,7 @@ export default class EditDeveloper extends Component {
           </Form.Group>
           <Form.Group as={Row} className="mb-2" controlId="Sexo">
             <Form.Label as="legend" column sm={2}>
-              Sexo
+              Sexo:
             </Form.Label>
             <Col sm={12}>
               <Form.Check
@@ -143,7 +143,7 @@ export default class EditDeveloper extends Component {
             </Col>
           </Form.Group>
           <Form.Group controlId="Idade">
-            <Form.Label>Idade</Form.Label>
+            <Form.Label>Idade:</Form.Label>
             <Form.Control
               required
               max="100"
@@ -153,7 +153,7 @@ export default class EditDeveloper extends Component {
             />
           </Form.Group>
           <Form.Group controlId="Hobby">
-            <Form.Label>Hobby</Form.Label>
+            <Form.Label>Hobby:</Form.Label>
             <Form.Control
               required
               type="text"
@@ -162,7 +162,7 @@ export default class EditDeveloper extends Component {
             />
           </Form.Group>
           <Form.Group controlId="Data de Nascimento">
-            <Form.Label>Data de Nascimento</Form.Label>
+            <Form.Label>Data de Nascimento:</Form.Label>
             <Form.Control
               required
               type="date"

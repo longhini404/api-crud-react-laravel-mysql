@@ -3,6 +3,8 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/LonghiniDev/api-crud-devs-react-laravel?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/LonghiniDev/api-crud-devs-react-laravel?style=for-the-badge)
 
+[![](https://github.com/LonghiniDev/LonghiniDev/blob/main/dino.gif)](#)
+
 # Laravel
 
 ## Deploy

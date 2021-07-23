@@ -11,19 +11,18 @@
   border: 1px solid #ed1e79 !important;
   background-color: #272760 !important; }
 
-.form-check-input:focus {
-  box-shadow: none !important;
-  border-color: #ed1e79 !important; }
-
-.form-check-input:checked {
-  border-color: #ed1e79 !important;
-  background-color: #ed1e79 !important; }
-
-.form-check-input:checked[type="radio"] {
-  background-image: none !important; }
-
 .form-check-input {
+  border: 1px solid #ed1e79;
   background-color: transparent !important; }
+  .form-check-input:focus {
+    box-shadow: none !important;
+    border-color: #ed1e79 !important; }
+  .form-check-input:checked {
+    border-color: #ed1e79 !important;
+    background-color: #ed1e79 !important; }
+
+.form-check-input .form-check-input .form-check-input:checked[type="radio"] {
+  background-image: none !important; }
 
 .swal2-styled.swal2-confirm {
   color: black !important;

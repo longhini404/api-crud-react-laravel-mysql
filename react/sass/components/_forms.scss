@@ -6,20 +6,19 @@
   background-color: $blue !important;
 }
 
-.form-check-input:focus {
-  box-shadow: none !important;
-  border-color: $pink !important;
-}
-
-.form-check-input:checked {
-  border-color: $pink !important;
-  background-color: $pink !important;
-}
-
-.form-check-input:checked[type="radio"] {
-  background-image: none !important;
-}
-
 .form-check-input {
+  border: 1px solid $pink;
   background-color: transparent !important;
+  &:focus {
+    box-shadow: none !important;
+    border-color: $pink !important;
+  }
+  &:checked {
+    border-color: $pink !important;
+    background-color: $pink !important;
+  }
+}
+
+.form-check-input .form-check-input .form-check-input:checked[type="radio"] {
+  background-image: none !important;
 }
