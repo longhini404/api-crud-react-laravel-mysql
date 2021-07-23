@@ -1,0 +1,22 @@
+@import "../variables";
+
+.form-control {
+  color: black !important;
+  border-radius: 1rem !important;
+  border: 1px solid $pink !important;
+  background-color: $blue !important;
+}
+
+.form-check-input:focus {
+  box-shadow: none !important;
+  border-color: $pink !important;
+}
+
+.form-check-input:checked {
+  border-color: $pink !important;
+  background-color: $pink !important;
+}
+
+.form-check-input {
+  background-color: transparent !important;
+}

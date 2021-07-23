@@ -19,7 +19,7 @@ export default class DeveloperTableRow extends Component {
         Swal.fire({
           title: "Desenvolvedor Deletado",
           text: "",
-          icon: "success",
+          icon: "",
         }).then(function () {
           window.location.reload();
         });
@@ -29,7 +29,7 @@ export default class DeveloperTableRow extends Component {
         Swal.fire({
           title: "Erro ao Deletar Desenvolvedor!",
           text: "",
-          icon: "warning",
+          icon: "",
         }).then(function () {
           window.location.reload();
         });
@@ -44,17 +44,19 @@ export default class DeveloperTableRow extends Component {
         <td>{this.props.obj.hobby}</td>
         <td>{this.props.obj.datanascimento}</td>
         <td>
-          <Link
-            className="edit-link pe-2"
-            to={"/edit-developer/" + this.props.obj.id}
-          >
-            <Button size="sm" variant="info">
-              Editar
+          <div className="text-center">
+            <Link
+              className="edit-link pe-2"
+              to={"/edit-developer/" + this.props.obj.id}
+            >
+              <Button size="sm" variant="pink">
+                Editar
+              </Button>
+            </Link>
+            <Button onClick={this.deleteDeveloper} size="sm" variant="pink">
+              Deletar
             </Button>
-          </Link>
-          <Button onClick={this.deleteDeveloper} size="sm" variant="danger">
-            Deletar
-          </Button>
+          </div>
         </td>
       </tr>
     );

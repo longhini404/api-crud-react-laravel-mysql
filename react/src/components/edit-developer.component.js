@@ -87,7 +87,7 @@ export default class EditDeveloper extends Component {
         Swal.fire({
           title: "Desenvolvedor Atualizado",
           text: "",
-          icon: "success",
+          icon: "",
         }).then(function () {
           window.location.reload();
         });
@@ -97,7 +97,7 @@ export default class EditDeveloper extends Component {
         Swal.fire({
           title: "Erro ao atualizar Desenvolvedor!",
           text: "",
-          icon: "warning",
+          icon: "",
         }).then(function () {
           window.location.reload();
         });
@@ -173,10 +173,10 @@ export default class EditDeveloper extends Component {
 
           <Button
             className="my-4"
-            variant="primary"
-            size="lg"
+            variant="pink"
             block="block"
             type="submit"
+            size="lg"
           >
             Atualizar Desenvolvedor
           </Button>

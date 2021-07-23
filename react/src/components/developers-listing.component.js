@@ -41,7 +41,7 @@ export default class DeveloperList extends Component {
               <th>Idade</th>
               <th>Hobby</th>
               <th>Data de Nascimento</th>
-              <th>Ação</th>
+              <th className="text-center">Ação</th>
             </tr>
           </thead>
           <tbody>{this.DataTable()}</tbody>

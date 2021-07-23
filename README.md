@@ -35,6 +35,12 @@ yarn install
 yarn start
 ```
 
+## Sass
+
+```
+sass --watch sass:src/assets/css
+```
+
 # Tecnologias
 
 <h2 align="center">

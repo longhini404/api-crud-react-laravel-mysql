@@ -1,6 +1,9 @@
 import React from "react";
 import { Row, Col, Container, Navbar } from "react-bootstrap";
+import devcrud from "./assets/img/devcrud.png";
 import "bootstrap/dist/css/bootstrap.css";
+import "./assets/css/style.css";
+
 import "./App.css";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -13,37 +16,38 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar bg="dark">
-          <Container>
+        <Navbar className="bg-purple">
+          <Container className="justify-content-center">
             <Navbar.Brand href="/">
-              <img
-                src="https://react-bootstrap.github.io/logo.svg"
-                width="30"
-                height="30"
-                className="d-inline-block align-top"
-                alt="React Bootstrap logo"
-              />
+              <img src={devcrud} />
             </Navbar.Brand>
           </Container>
         </Navbar>
-
-        <Container>
-          <Row>
-            <Col md={12}>
-              <div className="wrapper">
-                <Switch>
-                  <Route exact path="/" component={CreateDeveloper} />
-                  <Route path="/create-developer" component={CreateDeveloper} />
-                  <Route path="/edit-developer/:id" component={EditDeveloper} />
-                  <Route
-                    path="/developers-listing"
-                    component={DevelopersList}
-                  />
-                </Switch>
-              </div>
-            </Col>
-          </Row>
-        </Container>
+        <div className="my-2">
+          <Container>
+            <Row>
+              <Col md={12}>
+                <div className="wrapper">
+                  <Switch>
+                    <Route exact path="/" component={CreateDeveloper} />
+                    <Route
+                      path="/create-developer"
+                      component={CreateDeveloper}
+                    />
+                    <Route
+                      path="/edit-developer/:id"
+                      component={EditDeveloper}
+                    />
+                    <Route
+                      path="/developers-listing"
+                      component={DevelopersList}
+                    />
+                  </Switch>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
       </div>
     </Router>
   );
