@@ -1,10 +1,6 @@
 @import "../variables";
 
 .table {
-  color: black !important;
+  color: $cyan !important;
   border-color: $pink !important;
-}
-
-.table-striped > tbody > tr:nth-of-type(odd) {
-  color: black !important;
 }

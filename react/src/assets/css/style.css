@@ -2,13 +2,13 @@
   color: black !important; }
 
 .btn-pink {
-  color: black;
   border-radius: 2rem;
   border-color: #ed1e79;
-  background-color: #ed1e79; }
+  background-color: #ed1e79;
+  color: #0cffe1 !important; }
 
 .form-control {
-  color: black !important;
+  color: #0cffe1 !important;
   border-radius: 1rem !important;
   border: 1px solid #ed1e79 !important;
   background-color: #272760 !important; }
@@ -24,6 +24,9 @@
 .form-check-input {
   background-color: transparent !important; }
 
+.form-check-input:checked[type="radio"] {
+  background-image: none !important; }
+
 .swal2-styled.swal2-confirm {
   color: black !important;
   background-color: #0cffe1 !important; }
@@ -38,11 +41,8 @@
   color: #0cffe1 !important; }
 
 .table {
-  color: black !important;
+  color: #0cffe1 !important;
   border-color: #ed1e79 !important; }
-
-.table-striped > tbody > tr:nth-of-type(odd) {
-  color: black !important; }
 
 .bg-blue {
   background-color: #272760; }

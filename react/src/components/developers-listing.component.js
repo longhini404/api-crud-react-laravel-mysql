@@ -33,7 +33,7 @@ export default class DeveloperList extends Component {
   render() {
     return (
       <div className="table-wrapper">
-        <Table responsive striped bordered hover>
+        <Table responsive bordered hover>
           <thead>
             <tr>
               <th>Nome</th>
