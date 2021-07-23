@@ -20,7 +20,7 @@ function App() {
         <Navbar className="bg-purple">
           <Container className="justify-content-center">
             <Navbar.Brand href="/">
-              <img src={devcrud} />
+              <img src={devcrud} width="300" />
             </Navbar.Brand>
           </Container>
         </Navbar>

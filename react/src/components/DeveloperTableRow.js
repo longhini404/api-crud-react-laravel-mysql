@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Button from "react-bootstrap/Button";
+import { Table, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 
@@ -49,11 +49,16 @@ export default class DeveloperTableRow extends Component {
               className="edit-link pe-2"
               to={"/edit-developer/" + this.props.obj.id}
             >
-              <Button size="sm" variant="pink">
+              <Button size="sm" variant="pink" className="ms-1">
                 Editar
               </Button>
             </Link>
-            <Button onClick={this.deleteDeveloper} size="sm" variant="pink">
+            <Button
+              onClick={this.deleteDeveloper}
+              size="sm"
+              variant="pink"
+              className="m-2"
+            >
               Deletar
             </Button>
           </div>
