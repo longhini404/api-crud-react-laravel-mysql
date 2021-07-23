@@ -2,7 +2,6 @@ import React from "react";
 import { Row, Col, Container, Navbar } from "react-bootstrap";
 import devcrud from "./assets/img/devcrud.png";
 import "bootstrap/dist/css/bootstrap.css";
-import "./assets/fonts/style.css";
 import "./assets/css/style.css";
 
 import "./App.css";
