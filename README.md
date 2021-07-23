@@ -48,4 +48,5 @@ sass --watch sass:src/assets/css
 <h2 align="center">
     <a href="https://laravel.com/docs/8.x">🔗 Laravel</a>
     <a href="https://react-bootstrap.github.io/">🔗 React</a>
+    <a href="https://sass-lang.com/">🔗 Sass</a>
 </h2>
