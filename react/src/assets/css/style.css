@@ -2,14 +2,12 @@
   color: black !important; }
 
 .btn-pink {
-  border-radius: 2rem;
   border-color: #ed1e79;
   background-color: #ed1e79;
   color: #0cffe1 !important; }
 
 .form-control {
   color: #0cffe1 !important;
-  border-radius: 1rem !important;
   border: 1px solid #ed1e79 !important;
   background-color: #272760 !important; }
 
@@ -21,17 +19,17 @@
   border-color: #ed1e79 !important;
   background-color: #ed1e79 !important; }
 
-.form-check-input {
-  background-color: transparent !important; }
-
 .form-check-input:checked[type="radio"] {
   background-image: none !important; }
+
+.form-check-input {
+  background-color: transparent !important; }
 
 .swal2-styled.swal2-confirm {
   color: black !important;
   background-color: #0cffe1 !important; }
   .swal2-styled.swal2-confirm:focus {
-    box-shadow: 0 0 0 2px #000 !important; }
+    box-shadow: 0 0 0 1px #000 !important; }
 
 .swal2-popup {
   background: #442768 !important;
@@ -42,7 +40,11 @@
 
 .table {
   color: #0cffe1 !important;
-  border-color: #ed1e79 !important; }
+  border-color: #ed1e79 !important;
+  --bs-table-hover-color: $cyan !important; }
+
+nav {
+  background-color: #442768; }
 
 .bg-blue {
   background-color: #272760; }

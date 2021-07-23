@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar className="bg-purple">
+        <Navbar>
           <Container className="justify-content-center">
             <Navbar.Brand href="/">
               <img src={devcrud} width="300" />
