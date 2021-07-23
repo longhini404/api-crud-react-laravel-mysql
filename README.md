@@ -38,16 +38,16 @@ cd react
 yarn install
 ```
 
-## Localhost
-
-```
-yarn start
-```
-
 ## Sass
 
 ```
 sass --watch sass:src/assets/css
+```
+
+## Localhost
+
+```
+yarn start
 ```
 
 # Tecnologias
