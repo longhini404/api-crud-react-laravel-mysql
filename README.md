@@ -54,8 +54,6 @@ sass --watch sass:src/assets/css
 yarn start
 ```
 
-# Tecnologias
-
 <h2 align="center">
     <a href="https://laravel.com/docs/8.x">🔗 Laravel</a>
     <a href="https://react-bootstrap.github.io/">🔗 React</a>
