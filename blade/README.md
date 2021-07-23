@@ -23,3 +23,5 @@ php artisan migrate
 php artisan key:generate
 php artisan serve --host=localhost --port=4000
 ```
+
+http://localhost:4000/
