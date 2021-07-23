@@ -20,9 +20,8 @@
   .form-check-input:checked {
     border-color: #ed1e79 !important;
     background-color: #ed1e79 !important; }
-
-.form-check-input .form-check-input .form-check-input:checked[type="radio"] {
-  background-image: none !important; }
+  .form-check-input:checked[type="radio"] {
+    background-image: none !important; }
 
 .swal2-styled.swal2-confirm {
   color: black !important;

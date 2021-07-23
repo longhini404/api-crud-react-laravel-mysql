@@ -17,8 +17,7 @@
     border-color: $pink !important;
     background-color: $pink !important;
   }
-}
-
-.form-check-input .form-check-input .form-check-input:checked[type="radio"] {
-  background-image: none !important;
+  &:checked[type="radio"] {
+    background-image: none !important;
+  }
 }
