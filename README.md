@@ -11,7 +11,7 @@
 
 # Laravel
 
-## Deploy
+## Setup
 
 ```
 cd laravel
@@ -35,7 +35,7 @@ php artisan serve --host=localhost --port=4000
 
 # React
 
-## Deploy
+## Setup
 
 ```
 cd react
